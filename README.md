@@ -6,5 +6,5 @@ Commands:
 Configuration:
 The configuration can be found at plugins/keywordkick/config.yml
 
-Bypass Permission:
-Any player with the keywordkick.bypass permission cam bypass being kicked from the proxy completely!
+Permissions:
+Any player with the keywordkick.bypass permission cam bypass being kicked from the proxy completely! Additionally, if a player has the keywordkick.reload permission, they can reload the configuration.
