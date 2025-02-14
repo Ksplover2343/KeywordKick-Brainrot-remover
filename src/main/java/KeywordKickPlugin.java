@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.List;
 
-@Plugin(id = "keywordkick", name = "Keyword Kick Plugin", version = "1.0", authors = {"Longwise (because yes, I am very long)})
+@Plugin(id = "keywordkick_BR", name = "Keyword Kick Remove Brainrot Plugin", version = "1.0", authors = {"Wolfdogmaster13 (thx for the original project btw!!!)
 public class KeywordKickPlugin {
 
     private final Logger logger;
@@ -44,9 +44,13 @@ public class KeywordKickPlugin {
                 Files.write(configPath, List.of(
                         "# List of keywords that trigger a proxy-wide kick",
                         "keywords:",
-                        "  - banned",
-                        "  - cheating",
-                        "  - AFK'd"
+                        "  - skibidi",
+                        "  - mog",
+                        "  - rizz"
+                        "  - alpha"
+                        "  - beta"
+                        "  - sigma"
+                        "  - mewing"
                 ));
                 logger.info("Created default config.yml");
             } catch (IOException e) {
@@ -88,7 +92,7 @@ public class KeywordKickPlugin {
                     // Forward the backend server's kick message to the player
                     player.disconnect(event.getServerKickReason().get());
 
-                    logger.info("Player {} was kicked from the proxy due to keyword match: {}", player.getUsername(), keyword);
+                    logger.info("Player {} was kicked from the proxy due to BRAINROT DETECTED: {}", player.getUsername(), keyword);
                     return; // Stop checking further keywords after a match
                 }
             }
