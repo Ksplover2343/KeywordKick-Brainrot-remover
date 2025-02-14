@@ -1,0 +1,7 @@
+{
+  "id": "keywordkick",
+  "name": "Keyword Kick Plugin",
+  "version": "1.0",
+  "authors": ["Longwise"],
+  "main": "com.example.velocityplugin.KeywordKickPlugin"
+}

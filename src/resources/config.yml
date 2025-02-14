@@ -1,0 +1,7 @@
+# Configuration for KeywordKick Plugin
+file-version: 1
+
+keywords:
+  - banned
+  - cheating
+  - AFK'd
