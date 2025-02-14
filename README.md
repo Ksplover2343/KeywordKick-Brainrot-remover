@@ -10,4 +10,4 @@ Permissions:
 Any player with the keywordkick.bypass permission cam bypass being kicked from the proxy completely! Additionally, if a player has the keywordkick.reload permission, they can reload the configuration.
 
 Demo:
-![Screenshot_20250213_204507](https://github.com/user-attachments/assets/71a21cc8-1b4c-4ba8-9fa8-7514ac034464)
+![Screenshot_20250213_204507-obfuscated](https://github.com/user-attachments/assets/58f863fd-6a8a-443d-8832-744aba3fa718)
