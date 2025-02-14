@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.List;
 
-@Plugin(id = "keywordkick_BR", name = "Keyword Kick Remove Brainrot Plugin", version = "1.0", authors = {"Wolfdogmaster13 (thx for the original project btw!!!)"}
+@Plugin(id = "keywordkick_BR", name = "Keyword Kick Remove Brainrot Plugin", version = "1.0", authors = {"Wolfdogmaster13 (thx for the original project btw!!!)"})
 public class KeywordKickPlugin {
 
     private final Logger logger;
